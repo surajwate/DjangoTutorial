@@ -4,4 +4,10 @@ li a {
 
 body {
     background: white url("images/background.png") no-repeat;
+
+    /* Additional properties for more control */
+    background-size: 25%; /* Adjusts the image size (cover, contain, or specific size) */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image does not repeat */
+    background-attachment: fixed; /* Fixes the background so it doesn't scroll */
 }
